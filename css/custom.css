@@ -1,0 +1,66 @@
+/*
+ * Defining custom CSS styles
+ */
+
+body {
+
+    font-family : 'Roboto', sans-serif;
+
+}
+
+.list-group {
+    border-color: #F57C00;
+}
+
+.list-group .active {
+
+    color: black;
+    background-color: white;
+    border-color: #F57C00;
+
+}
+
+.blank-space {
+    padding-bottom: 20em;
+}
+
+/* Icon Spacing */
+
+.fab .fas {
+    margin-right: 10px;
+}
+
+a {
+    color: #F57C00;
+}
+
+u {
+    padding-bottom: 10;
+    text-decoration: none;
+    border-bottom: 5px solid #F57C00;
+}
+
+/* SVG Logo Config */
+
+svg {
+    height: 10%;
+    width: 10%;
+    stroke-linecap: square; /* Fixes the incomplete corner */
+}
+
+#line1 {
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 1700;
+    animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1700;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* End SVG Config */
